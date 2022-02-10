@@ -24,4 +24,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://an
+gular.io/cli) page.
+
+## Node Server added
+
+To run the node server, Enter following specific command on terminal.
+ >npm run start:server
+This command will start your node server, but before doing this make sure that
+you have add "start:server": "nodemon server.js" into your package.json file.
